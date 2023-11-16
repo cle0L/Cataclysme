@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Fivo Sans Modern';
+    src: url('./médias/fivo\ sans\ mordern.otf') format('otf'),
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1F1F1F ;
+    color: #F5F5F5 ;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Fivo Sans Modern';
+    margin: 0 0 28px 2.8%;
+    padding-top: 359px;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+ 
+a {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+
+/* *****************************HEAD************************************* */
+
+.logo-cataclysm {
+    position: absolute;
+    top: 54px;
+    left: 30.5%;
+    z-index: -2;
+    width: 559px;
+    height: 449px;
+}
+
+/* *****************************TEXT************************************* */
+
+.text{
+    width: 90%;
+    margin: 0 2.8%;
+    display: flex;
+    align-items: end;
+    column-gap: 20px;
+}
+
+.text p {
+    width: 60%;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    border: solid 1px #F5F5F5;
+    padding: 24px 20px;
+}
+
+.text a {
+    width: 11.2%;
+}
+
+.text button{
+    cursor: pointer;
+    height: 64px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F5F5F5;
+    background-color: #1F1F1F;
+    border: 1px solid #F5F5F5;
+    font-family: 'Fivo Sans Modern';
+    font-size: 18px;
+}
+
+/* *****************************SEASON-1************************************* */
+
+.season-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.season-1 a {
+    width: 14.6%;
+    margin: 70px 0 28px 2.8%;
+} 
+
+.season-1 button {
+    cursor: pointer;
+    height: 64px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F5F5F5;
+    background-color: #1F1F1F;
+    border: 1px solid #F5F5F5;
+    font-family: 'Fivo Sans Modern';
+    font-size: 18px;
+}
+
+.season-1 button img {
+    padding-left: 12%;
+    margin-top: -3%;
+}
+
+.list-episode{
+    margin-left: 2.8%;
+    display: flex;
+    column-gap: 9.6%;
+}
+
+.episode-1 , .episode-2 {
+    position: relative;
+    padding-bottom: 13%;
+    width: 23.5%;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.list-episode p {
+    color: #f5f5f5;
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+/* *****************************CREATOR************************************* */
+
+#creator {
+    position: absolute;
+    top: 852px;
+    left: 74.6%;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+}
+
+#creator p {
+    color: #F5F5F5;
+    font-size: 30px;
+    max-width: 215px;
+    line-height: normal;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #F5F5F5;
+    padding: 28px;
+    row-gap: 2px;
+}
+
+.links a {
+    color: #F5F5F5;
+    font-size: 1.25rem;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.links a:hover {
+    color: #D2B48C;
+    transition: 0.3s ease-in-out;
+}
+
+
+/* *****************************FOOTER************************************* */
+
+footer {
+    width: 100%;
+    margin-top: 383px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #f5f5f5;
+}
+
+.footer-links{
+    display: flex;
+}
+
+footer p {
+    font-family: Georgia;
+    font-size: 18px;
+    display: flex;
+}
+
+.legal {
+    padding: 70px 40px;
+    border-right: 1px solid #f5f5f5;
+}
+
+.youtube {
+    padding: 70px 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 28px;
+}
+.logo-220-WAV {
+    margin-right: 3%;   
+}
