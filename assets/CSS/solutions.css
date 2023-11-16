@@ -117,3 +117,39 @@ p {
     margin: 5% 2.8%;
     width: 900px;
 }
+
+/* *****************************FOOTER************************************* */
+
+footer {
+    width: 100%;
+    margin-top: 383px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #1F1F1F;
+}
+
+.footer-links{
+    display: flex;
+}
+
+footer p {
+    font-family: Georgia;
+    font-size: 18px;
+    display: flex;
+}
+
+.legal {
+    padding: 70px 40px;
+    border-right: 2px solid #1F1F1F;
+}
+
+.youtube {
+    padding: 70px 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 28px;
+}
+.logo-220-WAV {
+    margin-right: 3%;   
+}
