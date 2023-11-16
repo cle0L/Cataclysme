@@ -98,8 +98,7 @@ p {
     border: solid 2px #1F1F1F ;
 }
 
-
-.text button{
+.text button {
     cursor: pointer;
     height: 64px;
     width: 100%;
@@ -111,6 +110,7 @@ p {
     border: 2px solid #1F1F1F ;
     font-family: 'Fivo Sans Modern';
     font-size: 18px;
+    text-decoration: none;
 }
 
 .chapter {
