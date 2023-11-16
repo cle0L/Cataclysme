@@ -13,6 +13,7 @@ body {
     user-select: none;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -54,7 +55,7 @@ a {
     width: 60%;
     font-family: Georgia, serif;
     font-size: 18px;
-    border: solid 1px #F5F5F5;
+    border: solid 2px #F5F5F5;
     padding: 24px 20px;
 }
 
@@ -71,7 +72,7 @@ a {
     justify-content: center;
     color: #F5F5F5;
     background-color: #1F1F1F;
-    border: 1px solid #F5F5F5;
+    border: 2px solid #F5F5F5;
     font-family: 'Fivo Sans Modern';
     font-size: 18px;
 }
@@ -98,7 +99,7 @@ a {
     justify-content: center;
     color: #F5F5F5;
     background-color: #1F1F1F;
-    border: 1px solid #F5F5F5;
+    border: 2px solid #F5F5F5;
     font-family: 'Fivo Sans Modern';
     font-size: 18px;
 }
@@ -108,7 +109,7 @@ a {
     margin-top: -3%;
 }
 
-.list-episode{
+.list-episode {
     margin-left: 2.8%;
     display: flex;
     column-gap: 9.6%;
@@ -116,7 +117,6 @@ a {
 
 .episode-1 , .episode-2 {
     position: relative;
-    padding-bottom: 13%;
     width: 23.5%;
 }
 
@@ -148,7 +148,9 @@ a {
     position: absolute;
     top: 852px;
     left: 74.6%;
+    max-width: 220px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     opacity: 0;
 }
@@ -163,18 +165,16 @@ a {
 .links {
     display: flex;
     flex-direction: column;
-    border: 1px solid #F5F5F5;
+    flex-wrap: wrap;
+    border: 2px solid #F5F5F5;
     padding: 28px;
     row-gap: 2px;
 }
 
 .links a {
     color: #F5F5F5;
-    font-size: 1.25rem;
     font-family: Georgia, serif;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
 }
 
@@ -192,7 +192,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid #f5f5f5;
+    border-top: 2px solid #f5f5f5;
 }
 
 .footer-links{
@@ -207,7 +207,7 @@ footer p {
 
 .legal {
     padding: 70px 40px;
-    border-right: 1px solid #f5f5f5;
+    border-right: 2px solid #f5f5f5;
 }
 
 .youtube {
