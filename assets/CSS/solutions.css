@@ -78,11 +78,10 @@ a {
 }
 
 p {
-    width: 60%;
     font-family: Georgia, serif;
     font-size: 18px;
     border: solid 1px #F5F5F5;
-    padding: 24px 20px;
+    padding-top: 24px ;
 }
 
 .text a {
