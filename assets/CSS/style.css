@@ -24,6 +24,15 @@ h1 {
     font-size: 60px;
 }
  
+h3 {
+    font-family: Fivo Sans Modern;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 28px;
+}
+
 a {
     text-decoration: none;
     color: #F5F5F5;
@@ -34,8 +43,8 @@ a {
 
 .logo-cataclysm {
     position: absolute;
-    top: 54px;
-    left: 30.5%;
+    top: 25px;
+    left: 44.5%;
     z-index: -2;
     width: 559px;
     height: 449px;
