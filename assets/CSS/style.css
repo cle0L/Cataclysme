@@ -132,13 +132,13 @@ a {
 
 .video-container {
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     padding-bottom: 56.25%;
     overflow: hidden;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
 }
 
-.video-container iframe {
+.video-container img{
     position: absolute;
     top: 0;
     left: 0;
