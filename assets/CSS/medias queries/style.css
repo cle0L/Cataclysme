@@ -1,3 +1,30 @@
-@media screen and (max-width:950px) {
-    
+@media screen and (max-width: 950px) {
+    .text p {
+        font-size: 14px;
+    }
+    .text button {
+        font-size: 14px;
+    }
+    .season-1 button {
+        font-size: 14px;
+    }
+    .list-episode {
+        display: block;
+    }
+    .list-episode p {
+        font-size: 14px;
+    }
+    .episode-1 {
+        padding-bottom: 28px;
+    }
+    .episode-1 , .episode-2 {
+        width: 40%;
+    }
+    #creator p {
+        font-size: 24px;
+        padding: 20px;
+    }
+    footer p {
+        font-size: 14px;
+    }
 }
